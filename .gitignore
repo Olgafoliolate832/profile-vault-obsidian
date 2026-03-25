@@ -1,0 +1,13 @@
+# Obsidian configuration (user-specific)
+Profile/.obsidian/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
